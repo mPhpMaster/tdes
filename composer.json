@@ -1,0 +1,33 @@
+{
+    "name": "mphpmaster/tdes",
+    "description": "Php TDES Cipher using openssl.",
+    "type": "library",
+    "keywords": [
+        "php",
+        "tdes",
+        "cipher"
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mPhpMaster",
+            "email": "59211285+mPhpMaster@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MPhpMaster\\TDES\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Functions.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "version": "1.0.0"
+}
